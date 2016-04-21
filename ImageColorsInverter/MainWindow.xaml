@@ -1,0 +1,14 @@
+﻿<Window x:Class="ImageColorsInverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ImageColorsInverter"
+        mc:Ignorable="d"
+        Title="ImageColorsInverter" Height="82" Width="289" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button x:Name="Button_Choose_Image" Content="..." HorizontalAlignment="Left" Margin="186,13,0,0" VerticalAlignment="Top" Width="64" Click="Button_Choose_Image_Click"/>
+        <Label x:Name="label" Content="Choose image to invert colors:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
